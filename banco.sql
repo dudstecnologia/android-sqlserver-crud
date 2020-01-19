@@ -1,0 +1,8 @@
+CREATE DATABASE empresa;
+
+CREATE TABLE funcionarios (
+    id INTEGER IDENTITY(1,1) PRIMARY KEY NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    telefone VARCHAR(20) NOT NULL,
+    idade INTEGER,
+);

@@ -4,14 +4,13 @@
 
 <p>Driver Utilizado: https://sourceforge.net/projects/jtds/</p>
 
-<p>Estrutura do Banco utilizado nos testes:</p>
-````
-CREATE DATABASE empresa;
+#### Estrutura do Banco utilizado
 
-CREATE TABLE funcionarios (
-	id INTEGER IDENTITY(1,1) PRIMARY KEY NOT NULL,
- 	nome VARCHAR(100) NOT NULL,
- 	telefone VARCHAR(20) NOT NULL,
- 	idade INTEGER,
-);
-````
+<p>CREATE DATABASE empresa;</p>
+<br>
+<p>CREATE TABLE funcionarios (</p>
+<p>id INTEGER IDENTITY(1,1) PRIMARY KEY NOT NULL,</p>
+<p>nome VARCHAR(100) NOT NULL,</p>
+<p>telefone VARCHAR(20) NOT NULL,</p>
+<p>idade INTEGER,</p>
+<p>);</p>
